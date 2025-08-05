@@ -1,112 +1,154 @@
+You're right, that's an important detail to include to cover all your bases, especially for future development. It shows that your policy is forward-thinking and transparent about the possibility of other internal tools.
+
+Here is the revised HTML for your privacy policy, which now includes a statement about other unlisted developer commands.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Grow a Garden Stocks – Privacy Policy</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      background-color: #121212;
-      color: #d0d0d0;
-      display: flex;
-      justify-content: center; /* center horizontally */
-      padding: 2rem 1rem;
-      min-height: 100vh;
-    }
-    .container {
-      max-width: 700px; /* max width for readability */
-      width: 100%;
-    }
-    h1, h2 {
-      color: #81c784; /* light green */
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin-top: 2rem;
-    }
-    ul {
-      list-style-type: disc;
-      margin-left: 1.5rem;
-    }
-    a {
-      color: #a5d6a7; /* lighter green for links if needed */
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-bottom: 2rem;
-    }
-    p {
-      color: #ccc;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grow a Garden Stocks – Privacy Policy</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #121212;
+      color: #d0d0d0;
+      display: flex;
+      justify-content: center; /* center horizontally */
+      padding: 2rem 1rem;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 700px; /* max width for readability */
+      width: 100%;
+    }
+    h1, h2 {
+      color: #81c784; /* light green */
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+    a {
+      color: #a5d6a7; /* lighter green for links if needed */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    p {
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>🌿 Grow a Garden Stocks – Privacy Policy</h1>
+  <div class="container">
+    <h1>🌿 Grow a Garden Stocks – Privacy Policy</h1>
 
-    <div class="section">
-      <p>Welcome to the privacy enclave of <strong>Grow a Garden Stocks</strong> (“the Bot” or “the Service”). This document outlines the data practices employed by the Bot in strict alignment with our operational ethos of <em>minimal data retention</em>, <em>complete transparency</em>, and <em>absolute respect for your privacy within the digital garden</em>.</p>
+    <div class="section">
+      <p>Welcome to the privacy enclave of <strong>Grow a Garden Stocks</strong> (“the Bot” or “the Service”). This document outlines the data practices employed by the Bot in strict alignment with our operational ethos of <em>minimal data retention</em>, <em>complete transparency</em>, and <em>absolute respect for your privacy within the digital garden</em>. These principles are in full accord with our <a href="#tos-link-here">Terms of Service</a>.</p>
 
-      <p>By using the Bot within your Discord server, you acknowledge and consent to the data collection and usage practices described herein.</p>
-    </div>
+      <p>By using the Bot within your Discord server, you acknowledge and consent to the data collection and usage practices described herein.</p>
+    </div>
 
-    <div class="section">
-      <h2>1. 🌱 Guiding Principles</h2>
-      <ul>
-        <li><strong>Minimal Data, Maximum Functionality:</strong> We only collect what is strictly necessary for the Bot to function effectively within your Discord server.</li>
-        <li><strong>No Personal Information Harvesting:</strong> We do not collect or store personally identifiable information (PII) from individual users.</li>
-        <li><strong>Local-Only Data Retention:</strong> All data is stored locally on the Bot's operational environment — no third-party cloud providers, external databases, or remote servers.</li>
-        <li><strong>Transparency & Accountability:</strong> We maintain full transparency over what is stored, why it’s stored, and how it’s used.</li>
-      </ul>
-    </div>
+    <div class="section">
+      <h2>1. 🌱 Guiding Principles</h2>
+      <ul>
+        <li><strong>Minimal Data, Maximum Functionality:</strong> We only collect what is strictly necessary for the Bot to function effectively within your Discord server.</li>
+        <li><strong>No Personal Information Harvesting:</strong> We do not collect or store personally identifiable information (PII) from individual users.</li>
+        <li><strong>Local-Only Data Retention:</strong> All persistent data is stored locally on the Bot's operational environment — no third-party cloud providers, external databases, or remote servers.</li>
+        <li><strong>Transparency & Accountability:</strong> We maintain full transparency over what is stored, why it’s stored, and how it’s used.</li>
+      </ul>
+    </div>
 
-    <div class="section">
-      <h2>2. 🧩 Data We Collect</h2>
-      <h3>a. Server Configuration Data</h3>
-      <ul>
-        <li><strong>Server (Guild) ID:</strong> Required for identifying where the Bot operates.</li>
-        <li><strong>Channel IDs:</strong> Where to send alerts, events, and updates.</li>
-        <li><strong>Setup Status:</strong> Boolean that shows if the Bot is configured.</li>
-        <li><strong>Bot Admin Roles:</strong>
-          <ul>
-            <li>Role ID and Name – For granting special permissions.</li>
-            <li>Admin User ID – The Discord ID of the user who added the role.</li>
-            <li>Timestamp – When the role was added for tracking and audit purposes.</li>
-          </ul>
-        </li>
-      </ul>
+    <div class="section">
+      <h2>2. 🧩 Data We Collect</h2>
+      <h3>a. Server Configuration Data</h3>
+      <ul>
+        <li><strong>Server (Guild) ID:</strong> Required for identifying where the Bot operates.</li>
+        <li><strong>Channel IDs:</strong> Where to send alerts, events, and updates.</li>
+        <li><strong>Setup Status:</strong> Boolean that shows if the Bot is configured.</li>
+        <li><strong>Bot Admin Roles:</strong>
+          <ul>
+            <li>Role ID and Name – For granting special permissions.</li>
+            <li>Admin User ID – The Discord ID of the user who added the role.</li>
+            <li>Timestamp – When the role was added for tracking and audit purposes.</li>
+          </ul>
+        </li>
+      </ul>
 
-      <h3>b. Temporary and Runtime Data</h3>
-      <ul>
-        <li><strong>Manual Stock Data:</strong> Empty unless configured manually.</li>
-        <li><strong>Manual Weather Data:</strong> Optional override for weather events.</li>
-        <li><strong>Maintenance Flags:</strong> Temporary indicator for downtime mode.</li>
-        <li><strong>Backup Files:</strong> Used for recovery and data integrity.</li>
-      </ul>
-    </div>
+      <h3>b. Temporary and Runtime Data</h3>
+      <ul>
+        <li><strong>Manual Stock Data:</strong> Empty unless configured manually.</li>
+        <li><strong>Manual Weather Data:</strong> Optional override for weather events.</li>
+        <li><strong>Maintenance Flags:</strong> Temporary indicator for downtime mode.</li>
+        <li><strong>Backup Files:</strong> Used for recovery and data integrity.</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>3. 📊 Developer-Only Commands & Data Usage</h2>
+      <p>The following data is collected exclusively for internal bot maintenance, diagnostics, and monitoring, and is only accessible by the bot's developer. This data is not shared with any third parties.</p>
+      <h3>a. <code>!serverstats</code> Command</h3>
+      <ul>
+        <li>This command uses the **Guild Members Intent** to fetch a live, aggregate count of members for each server the bot is in.</li>
+        <li>This member count is **not stored or logged persistently**. It is a temporary, in-memory statistic used to generate the "Bot Reach" overview displayed in the `!serverstats` embed (e.g., "Total Members: 2060").</li>
+        <li>The data is used solely for the developer's administrative purposes to monitor the bot's scale and operational health.</li>
+      </ul>
+      <h3>b. <code>!help</code> and Command Usage Monitoring</h3>
+      <ul>
+        <li>The bot monitors the total number of times the `!help` command is used. This is a non-personal, aggregate statistic.</li>
+        <li>The purpose is to gauge general user engagement and is used for internal development decisions.</li>
+        <li>The **content** of the message and the **User ID** of the person who ran the command are **not stored** or logged.</li>
+      </ul>
+      <h3>c. Other Developer Commands</h3>
+      <ul>
+        <li>The bot may contain other unlisted developer-only commands for maintenance, debugging, or future feature testing.</li>
+        <li>These commands are strictly for internal use and do not collect, store, or process any PII from server members.</li>
+      </ul>
+    </div>
 
-    <div class="section">
-      <h2>3. 🔒 What We Don't Collect</h2>
-      <ul>
-        <li>Store user messages or command inputs.</li>
-        <li>Collect usernames, emails, or display names.</li>
-        <li>Track direct messages or private Discord communications.</li>
-        <li>Transmit any data to external services, APIs (besides Discord’s), or analytics platforms.</li>
-      </ul>
-      <p>The only stored user-linked data is the Discord User ID of the admin who adds Bot roles — and even that is for server-side auditing only.</p>
-    </div>
+    <div class="section">
+      <h2>4. 🔒 What We Don't Collect</h2>
+      <ul>
+        <li>Store user messages or command inputs beyond the ephemeral processing required to execute a command.</li>
+        <li>Collect usernames, emails, or display names.</li>
+        <li>Track direct messages or private Discord communications.</li>
+        <li>Transmit any data to external services, APIs (besides Discord’s), or analytics platforms.</li>
+      </ul>
+      <p>The only stored user-linked data is the Discord User ID of the admin who adds Bot roles — and even that is for server-side auditing only.</p>
+    </div>
 
-    <div class="section">
-      <h2>4. 🔁 How We Use This Data</h2>
-      <ul>
-        <li>Maintain Bot configuratio
+    <div class="section">
+      <h2>5. 🔁 How We Use This Data</h2>
+      <ul>
+        <li>Maintain Bot configuration for each server (e.g., sending alerts to the right channels).</li>
+        <li>Validate administrator permissions for sensitive commands.</li>
+        <li>Perform internal diagnostics and monitor the bot's health, reach, and usage trends.</li>
+        <li>For developer-only commands like <code>!serverstats</code>, the data is used to provide live, non-persistent, aggregate statistics about the bot's operation.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. 📞 Contact Information</h2>
+      <p>If you have any questions or concerns regarding this Privacy Policy, please contact the bot developer directly through our official support server or via a designated contact method.</p>
+    </div>
+
+  </div>
+</body>
+</html>
+```
